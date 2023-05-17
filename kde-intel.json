@@ -1,0 +1,41 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "archinstall-language": "French",
+    "audio": "pipewire",
+    "bootloader": "systemd-bootctl",
+    "config_version": "2.5.6",
+    "debug": false,
+    "desktop-environment": "kde",
+    "gfx_driver": "Intel (open-source)",
+    "hostname": "archlinux-kde",
+    "kernels": [
+        "linux-lts"
+    ],
+    "keyboard-layout": "fr",
+    "mirror-region": "France",
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "offline": false,
+    "packages": [
+        "firefox"
+    ],
+    "profile": {
+        "path": "desktop"
+    },
+    "script": "guided",
+    "silent": false,
+    "swap": false,
+    "sys-encoding": "utf-8",
+    "sys-language": "fr_FR",
+    "timezone": "Europe/Paris",
+    "version": "2.5.6"
+}
