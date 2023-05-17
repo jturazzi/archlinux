@@ -1,6 +1,6 @@
 
 <h1 align="center">🐧 Archlinux</h1>
-<h3 align="center">This repository contains multiple scripts to prepare my Archlinux systems.</h3>
+<h3 align="center">Multiple scripts to prepare my Archlinux systems.</h3>
 
 
 
