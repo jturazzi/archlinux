@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo mkdir /etc/pacman.d/hooks/
 sudo tee -a /etc/pacman.d/hooks/95-systemd-boot.hook >> /dev/null <<EOT
 [Trigger]
 Type = Package
