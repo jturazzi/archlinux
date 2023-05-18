@@ -4,10 +4,13 @@
 yay -S mkinitcpio-firmware sof-firmware
 
 # KDE
-yay -S qt6-wayland xdg-desktop-portal xdg-desktop-portal-kde ffmpegthumbs lib32-pipewire octopi octopi-notifier-qt5 p7zip power-profiles-daemon spectacle unrar
+yay -S ffmpegthumbs lib32-pipewire octopi octopi-notifier-qt5 power-profiles-daemon qt6-wayland xdg-desktop-portal xdg-desktop-portal-kde 
+
+# KDE APPLICATIONS
+yay -S gwenview kalk ktorrent okular spectacle
 
 # FONTS
 yay -S libunity noto-fonts noto-fonts-emoji ttf-liberation ttf-meslo-nerd-font-powerlevel10k
 
 # SOFTWARES
-yay -S discord google-chrome gwenview neofetch okular spotify timeshift visual-studio-code-bin vlc
+yay -S discord google-chrome neofetch p7zip spotify timeshift visual-studio-code-bin unrar vlc
