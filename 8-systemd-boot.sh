@@ -12,3 +12,8 @@ Description = Gracefully upgrading systemd-boot...
 When = PostTransaction
 Exec = /usr/bin/systemctl restart systemd-boot-update.service
 EOT
+
+sudo tee -a /boot/loader/loader.conf > /dev/null <<EOT
+timeout 3
+console-mode 2
+EOT
